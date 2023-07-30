@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    /* background-color: blue; */
+}
+span {
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-sizing: border-box; 
+    height: 50px;
+    width: 50px;
+}
+
+button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.animate{
+    animation:6s linear;
+}
